@@ -1,0 +1,9 @@
+# current packages
+scikit-image
+scikit-learn
+numpy
+pandas
+lightgbm
+
+# dvlpment tools
+jupyter
