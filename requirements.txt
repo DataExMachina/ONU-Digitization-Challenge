@@ -1,9 +1,13 @@
 # current packages
+Cython
 scikit-image
 scikit-learn
 numpy
+nltk
 pandas
 lightgbm
+wordbatch
+xgboost
 
 # dvlpment tools
 jupyter

@@ -1,5 +1,6 @@
 python3 -m venv crowdai-venv
 source crowdai-venv/bin/activate
-pip install --upgrade pip setuptools wheel 
-pip install -r requirements.txt
+pip3 install --upgrade pip setuptools wheel 
+pip3 install Cython
+pip3 install -r requirements.txt
 deactivate
