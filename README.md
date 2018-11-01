@@ -1,4 +1,4 @@
-This is my solution to the [CrowdAI challenge about lang detection on ONU document](https://www.crowdai.org/challenges/league-of-nations-archives-digitization-challenge) <br>
+This is my solution to the [CrowdAI challenge about lang detection on ONU documents](https://www.crowdai.org/challenges/league-of-nations-archives-digitization-challenge). <br>
 Please follow the following instructions. <br>
 Data can be found [here](https://owncloud.unog.ch/index.php/s/AHiEdCWr5Y86FsO).
 
