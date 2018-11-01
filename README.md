@@ -30,6 +30,7 @@ Grab a coffee and watch Netflix, this is long.
 # Text to score 
 - `source crowdai-venv/bin/activate`
 - `jupyter notebook`
+
 And then in **./app**, run the two notebooks (in the right order please). The first one convert text extracted into dataframes. The second one will preprocess data with TFIDF [sklearn implementation](http://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.TfidfVectorizer.html), and predict new documents using **Follow The Regularized Leader**, [wordbatch](https://github.com/anttttti/Wordbatch) package.
 
 # Copyrights
