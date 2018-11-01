@@ -16,6 +16,5 @@ for doc in $LIST_FILES; do
   TMP_NAME=${doc%.jpg}
   TMP_TOPATH=$
   # tesseract $TMP_PATH $TO_PATH$TMP_NAME //  basic use
-  tesseract $TMP_PATH $TO_PATH$TMP_NAME --oem 1 --psm 12 --dpi 300 -l fra+eng
+  tesseract $TMP_PATH $TO_PATH$TMP_NAME --psm 0 --dpi 300
 done
-

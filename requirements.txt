@@ -1,11 +1,14 @@
 # current packages
-Cython
+autocorrect
+gensim
+lightgbm
 scikit-image
 scikit-learn
 numpy
 nltk
+opencv-python
 pandas
-lightgbm
+pypandoc
 wordbatch
 xgboost
 
