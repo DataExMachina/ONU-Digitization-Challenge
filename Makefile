@@ -11,7 +11,7 @@ ocr_metadata:
         bash ./scripts/metadata.sh ./data/img/test/ ./data/meta_tesseract/
 
 create_rotation_requests:
-	source crowdai-venv/bin/execute
+	source ./crowdai-venv/bin/activate
 	python ./scripts/rotate_request_maker.py
 	deactivate
 
