@@ -11,6 +11,7 @@ Data can be found [here](https://owncloud.unog.ch/index.php/s/AHiEdCWr5Y86FsO).
 # Put images in this project 
 
 - `make cp_300dpi` <path_from> <path_to>
+
 Example: `make cp_300dpi /media/data/train/en ./data/img/train/en` <br>
 It will copy data resizing images before **tesseract** use.
 
@@ -36,5 +37,5 @@ And then in **./app**, run the two notebooks (in the right order please). The fi
 - tesseract: https://github.com/tesseract-ocr/tesseract
 
 # Support 
-Python 3.6
-Tesseract V4
+- Python 3.6
+- Tesseract V4
