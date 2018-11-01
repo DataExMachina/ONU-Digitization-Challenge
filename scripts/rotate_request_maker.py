@@ -19,7 +19,7 @@ def rotate(file):
     
     if rotate == '90':
         with open('./scripts/rotate_requests.txt', 'a') as f:
-            f.write('convert -rotate %s %s\n' % (rotate, file))
+            f.write('convert -rotate %s %s %s\n' % (rotate, file, file))
     return(rotate)
 
 # extract requests
