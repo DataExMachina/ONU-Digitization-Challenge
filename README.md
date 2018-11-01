@@ -10,13 +10,19 @@ Data can be found [here](https://owncloud.unog.ch/index.php/s/AHiEdCWr5Y86FsO).
 
 # Put images in this project 
 
-- `make cp_300dpi` <path_from> <path_to>
+- `make cp_300dpi` FROM=<path_from> TO=<path_to>
 
-Example: `make cp_300dpi /media/data/train/en ./data/img/train/en` <br>
+Example: `make cp_300dpi FROM=/media/data/train/en/ TO=./data/img/train/en/` <br>
 It will copy data resizing images before **tesseract** use.
 
 # Get orientation from images
 - `make ocr_metadata` (get orientation of an image)
+
+# Rotate
+- `make create_rotation_requests` (will create bash instruction to rotate images)
+- `make auto_rotate` (will rotate images if needed) 
+
+BE CAREFUL: you should run `auto_rotate` once !
 
 # Auto-orient images
 - `make orient` (re-orient images in the right way if needed)
