@@ -10,7 +10,7 @@ Data can be found [here](https://owncloud.unog.ch/index.php/s/AHiEdCWr5Y86FsO).
 
 # Put images in this project 
 
-- `make cp_300dpi` FROM=<path_from> TO=<path_to>
+- `make cp_300dpi FROM=<path_from> TO=<path_to>`
 
 Example: `make cp_300dpi FROM=/media/data/train/en/ TO=./data/img/train/en/` <br>
 It will copy data resizing images before **tesseract** use.
