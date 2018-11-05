@@ -24,9 +24,6 @@ It will copy data resizing images before **tesseract** use.
 
 BE CAREFUL: you should run `auto_rotate` once !
 
-# Auto-orient images
-- `make orient` (re-orient images in the right way if needed)
-
 # Extract text
 Grab a coffee and watch Netflix, this is long.
 - `make extract_train_fr`
